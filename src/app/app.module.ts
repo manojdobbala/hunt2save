@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
