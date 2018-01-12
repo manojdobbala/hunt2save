@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
+import { TilesComponent } from './tiles/tiles.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CardComponent } from './card/card.component';
     AppComponent,
     NavComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    TilesComponent
   ],
   imports: [
     BrowserModule,
