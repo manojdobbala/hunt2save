@@ -1,3 +1,7 @@
+.container{
+
+  margin: 20px 0;
+}
 .card {
   float: left;
   width: 33.333%;
@@ -12,6 +16,12 @@
   height: 280px;
   /*vertical-align: middle;*/
 }
+
+.card-img-top{
+  height:245px;
+  width: 250px;
+}
+
 
 
 .text-muted {
